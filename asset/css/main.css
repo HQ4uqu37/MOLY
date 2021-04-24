@@ -233,3 +233,14 @@ a {
     text-decoration: none;
     background-color: transparent;
 }
+
+.list-ele{
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 0px 10px;
+    margin: 5px;
+}
+
+.list-ele:hover{
+    background-color: #4c16ca;
+}
