@@ -27,7 +27,7 @@
 .menu-bar a {
     text-align: center;
     color: #01A7AF;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
 }
 
@@ -234,13 +234,27 @@ a {
     background-color: transparent;
 }
 
-.list-ele{
+.list-ele {
     border: 1px solid #ccc;
     border-radius: 15px;
     padding: 0px 10px;
     margin: 5px;
 }
 
-.list-ele:hover{
+.list-ele:hover {
     background-color: #4c16ca;
+}
+
+#city {
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 80%;
+    flex: 1;
+    border-radius: 25px;
+    padding: 5px;
+    font-size: 16px;
+    margin: 15% 10% 0 0;
+    background-color: #fff;
 }

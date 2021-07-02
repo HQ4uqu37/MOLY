@@ -1,0 +1,23 @@
+{
+    "name": "مولي | Moly",
+    "short_name": "مولي",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#FFF",
+    "theme_color": "#FFF",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "icons/manifest-icon-192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icons/manifest-icon-512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        }
+    ]
+}
