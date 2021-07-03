@@ -21,12 +21,12 @@
 }
 
 .menu-bar a:hover, .menu-bar a.active {
-    color: #990cea;
+    /* color: #990cea; */
 }
 
 .menu-bar a {
     text-align: center;
-    color: #01A7AF;
+    /* color: #01A7AF; */
     font-size: 25px;
     font-weight: 700;
 }
@@ -92,7 +92,7 @@ a {
 
 .section-title {
     background-image: url(../images/titleMask.svg);
-    background-color: #01A7AF;
+    /* background-color: #01A7AF; */
     padding: 20px 10px 30px 10px;
     /* padding: 15px; */
     /* border-radius: 0 0 12px 12px; */
@@ -242,19 +242,85 @@ a {
 }
 
 .list-ele:hover {
-    background-color: #4c16ca;
+    background-color: #000;
 }
 
 #city {
-    z-index: 1;
+    /* z-index: 1;
     position: absolute;
     right: 0;
-    top: 0;
+    top: 0; */
     width: 80%;
-    flex: 1;
+    /* flex: 1; */
     border-radius: 25px;
     padding: 5px;
     font-size: 16px;
-    margin: 15% 10% 0 0;
+    margin: 5% 0 0 0;
     background-color: #fff;
+}
+
+#back-icon{
+    z-index: 1;
+    position: absolute;
+    left: 7%;
+    top: 0;
+    flex: 1;
+
+}
+
+
+
+#welcome-bg{
+    background-image: url('../../res/img/bg-city.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+.w10{
+    width: 10%;
+}
+.w20{
+    width: 20%;
+}
+.w30{
+    width: 30%;
+}
+.w40{
+    width: 40%;
+}
+.w50{
+    width: 50%;
+}
+.w60{
+    width: 60%;
+}
+.w70{
+    width: 70%;
+}
+.w80{
+    width: 80%;
+}
+.w90{
+    width: 90%;
+}
+.w100{
+    width: 100%;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#btn-go{
+    
+}
+
+.nav-btm-icon{
+    font-size: 30px;
+}
+
+.border{
+    border: 1px solid #000;
+    border-radius: 10px;
 }

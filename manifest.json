@@ -8,14 +8,14 @@
     "orientation": "portrait-primary",
     "icons": [
         {
-            "src": "icons/manifest-icon-192.png",
-            "type": "image/png",
+            "src": "icons/192.svg",
+            "type": "image/svg",
             "sizes": "192x192",
             "purpose": "any maskable"
         },
         {
-            "src": "icons/manifest-icon-512.png",
-            "type": "image/png",
+            "src": "icons/512.svg",
+            "type": "image/svg",
             "sizes": "512x512",
             "purpose": "any maskable"
         }
